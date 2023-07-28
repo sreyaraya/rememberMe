@@ -59,7 +59,6 @@ header .currMonth{
     font-weight: 600;
 }
 
-
 .calendarBody{
     padding: 30px;
 }
@@ -78,8 +77,16 @@ header .currMonth{
     flex-wrap: wrap;
 }
 .date{
-   margin: 0 20px 20px;
-   font-weight: 200;
+    margin: 0 20px 20px;
+    font-weight: 200;
+    background-color: blue;
+    border-color: aliceblue;
+    border-radius: 5px;;
+    border-width: 5cap;
+    border-style: solid;
+    width: 40px;
+    padding: 5px;
+ 
 }
 
 .date.eob{
@@ -105,4 +112,3 @@ li{
 .today{
     color: red;
 }
-
