@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    background: #110652;
+    min-height: 100vh;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar{
+    background: black;
+    color: white;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+ul{
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+}
+
+header .nav i{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    user-select: none;
+    color: #aeabab;
+    font-size: 1.9rem;
+    padding: 10px;
+}
+
+.nav i:last-child {
+    margin-right: -10px;
+}
+
+header .nav i:hover{
+    background-color: #110652;
+}
+
+header .currMonth{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.calendarBody{
+    padding: 30px;
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 20px 20px;
+}
+
+.calDates{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.date{
+   margin: 0 20px 20px;
+   font-weight: 200;
+}
+
+.date.eob{
+    font-weight: 200;
+    color: gray;
+}
+
+.calDates li {
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+    
+}
+
+li{
+    font-weight: 700;
+}
+
+#days{
+    margin:0 20px 10px;
+    vertical-align:text-top;
+}
+
+.today{
+    color: red;
+}
+
