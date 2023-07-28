@@ -85,8 +85,7 @@ header .currMonth{
     border-width: 5cap;
     border-style: solid;
     width: 40px;
-    padding: 5px;
- 
+    padding: 5px; 
 }
 
 .date.eob{
