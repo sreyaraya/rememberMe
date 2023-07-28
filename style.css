@@ -80,6 +80,17 @@ header .currMonth{
 .date{
    margin: 0 20px 20px;
    font-weight: 200;
+   background-color: blue;
+   border-color: aliceblue;
+   border-radius: 5px;;
+   border-width: 5cap;
+   border-style: solid;
+   width: 40px;
+   padding: 5px;
+}
+
+.date p{
+    margin: auto;
 }
 
 .date.eob{

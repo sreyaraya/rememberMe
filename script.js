@@ -79,7 +79,7 @@ for(i=1; i<=lastDay.getDate(); i++){
 j=1
 for(i=lastDay.getDay()+1;i<7;i++){
     let child = document.createElement("li")
-    child.innerHTML=`<li class="date eob">${j}</li>`
+    child.innerHTML=`<li class="date eob"><p>${j}<p></li>`
     days.appendChild(child)
     dates.push(j)
     j+=1
